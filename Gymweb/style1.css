@@ -1,0 +1,169 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background: black;
+    clip-path: polygon(0% 0%,100% 0%,100% 100%,80% 80%,0% 100%);
+}
+nav{
+    width: 100%;
+
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+}
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+#blu{
+    color: #74b9ff;
+}
+.menu a{
+    text-decoration:none;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px;
+    margin: 10px;
+}
+.menu a:hover{
+    color:yellow;
+}
+.menu a:visited{
+    color:red;
+}
+.icon img{
+    height: 30px;
+ 
+}
+.left img{
+    background-size: cover;
+    height:50vh;
+    background-repeat: no-repeat;
+
+}
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 100px 0px;
+}
+
+.left{
+    flex-basis: 40%;
+}
+
+.right{
+    flex-basis: 40%;
+    max-width: 400px;
+}
+.right h1{
+    color: violet;
+}
+.btn{
+    background: transparent;
+    padding: 10px 20px;
+    color: chocolate;
+    border: 1px solid green;
+    border-radius: 8px;
+}
+
+
+#about{
+    padding: 100px 0px;
+}
+.about1{
+    float: left;
+    margin: 7rem 15rem;
+    
+}
+
+.about2 img{
+    float: right;
+    height: 50vh;
+    margin: 15px;
+    padding-right: 100px;
+}
+
+.but{
+    padding: 10px;
+    margin: 10px 0px;
+    color: white;
+    background-color:blueviolet;
+    border-radius: 20px;
+}
+.picture{
+    margin-top: 25rem;
+    margin-left: 15rem
+}
+.picture img{
+    height: 40vh;
+    width: 40vh;
+    margin: 2rem;
+    border: 7px solid black;
+    box-shadow: 5px 5px 20px 0px #000;
+   
+}
+
+.picture h2{
+    border: 2px solid blueviolet;
+    width: 60rem;
+    text-align: center;
+    margin: 7rem 3rem;
+    background-color: maroon;
+    color: white;
+
+}
+.picture{
+    box-shadow: 2px 3px 5px grey;
+    padding: 10px;
+    
+}
+.footer{
+    background-color: black;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+}
+
+
+
+/* ################Contact################ */
+
+
+.contact{
+    height: 100vh;
+    border: 3px solid red;
+    padding: 3rem;
+    justify-content: center;
+    text-align: center;
+    background-color: lightseagreen;
+}
+.space{
+    margin: 2rem;
+}
+
+
+
+
+@media (max-width:400px){
+    header{
+      
+    }
+}
+
+
+@media (max-width:400px){
+    nav{
+        
+    }
+}
